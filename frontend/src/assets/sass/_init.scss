@@ -1,0 +1,121 @@
+html,
+body {
+  height: 100%;
+}
+
+$font-path: "./../fonts/GTPressura";
+
+@font-face {
+  font-family: "GTPressura";
+  src: url("#{$font-path}/GT-Pressura-Bold.woff2") format("woff2"),
+  url("#{$font-path}/GT-Pressura-Bold.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "GTPressura";
+  src: url("#{$font-path}/GT-Pressura-Regular.woff2") format("woff2"),
+  url("#{$font-path}/GT-Pressura-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "GTPressura";
+  src: url("#{$font-path}/GT-Pressura-Light.woff2") format("woff2"),
+  url("#{$font-path}/GT-Pressura-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "GTPressuraMono";
+  src: url("#{$font-path}/GT-Pressura-Pro-Mono-Bold.woff2") format("woff2"),
+  url("#{$font-path}/GT-Pressura-Pro-Mono-Bold.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "GTPressuraMono";
+  src: url("#{$font-path}/GT-Pressura-Pro-Mono-Regular.woff2") format("woff2"),
+  url("#{$font-path}/GT-Pressura-Pro-Mono-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+body {
+  letter-spacing: 0.6px;
+  background: black url("./../img/bg.jpg") center top no-repeat;
+  background-size: 100% auto;
+  min-height: 100vh;
+}
+
+.wrapper {
+  box-sizing: border-box;
+  overflow: hidden;
+  // background-color: rgba(29, 88, 236, 0.2);
+  background: linear-gradient(180deg, rgba(29, 88, 236, 0.18) 0.52%, rgba(29, 88, 236, 0.1) 99.24%);
+  border-radius: 15px // background: #191B35;
+    // border: 1px solid #4452FE;
+    // border-radius: 25px;
+}
+
+.nav-link {
+  color: #908C8D;
+
+  &:hover {
+    color: white
+  }
+}
+
+textarea {
+  resize: none;
+}
+
+.wallet-bg {
+  background: linear-gradient(225deg, #49C9DE 0%, #2289BC 100%);
+  border-radius: 30px;
+}
+
+table {
+  tbody tr {
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+  }
+
+  thead {
+    color: #828282;
+  }
+
+  th {
+    font-weight: 400;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  th,
+  td {
+    &:first-child {
+      padding-left: 0
+    }
+
+    &:last-child {
+      padding-right: 0
+    }
+  }
+}
+
+#root {
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}

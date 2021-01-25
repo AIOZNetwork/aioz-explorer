@@ -1,0 +1,56 @@
+header {
+  background-color: rgba(0, 0, 0, 0.75);
+
+  .identical {
+    font-size: 10px;
+    letter-spacing: unset;
+    position: absolute;
+    bottom: -13px;
+    left: 10px;
+    color: #35D687;
+  }
+}
+
+.form-inline .form-control {
+  display: inline-block;
+  width: auto;
+  vertical-align: middle;
+}
+
+.navbar .navbar-brand {
+  font-size: 16px;
+  font-family: "GTPressura";
+  letter-spacing: 8px;
+}
+
+.custom-nav {
+  font-family: "GTPressura";
+  font-size: 16px;
+
+  .nav-link {
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.search-block {
+  select.form-control {
+    color: #444;
+    border-color: transparent;
+    background-color: transparent;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    height: auto;
+  }
+
+  input.form-control {
+    color: #444;
+    font-size: 16px;
+  }
+}

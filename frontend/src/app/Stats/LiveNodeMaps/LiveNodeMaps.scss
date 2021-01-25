@@ -1,0 +1,119 @@
+.live-nodes {
+  position: relative;
+  padding: 30px 15px 20px;
+  text-align: center;
+  max-width: inherit;
+
+  .guide-link {
+    margin-top: 10px;
+  }
+}
+
+.node {
+  position: relative;
+  padding-left: 20px;
+  margin: 0 10px;
+  font-size: 14px;
+
+  &--worker {
+    color: #7BCC3A;
+
+    &:before {
+      background-color: #7BCC3A;
+    }
+  }
+
+  &--validator {
+    color: #fb6a07;
+
+    &:before {
+      background-color: #fb6a07;
+    }
+  }
+
+  &--blockchain {
+    color: #10a0de;
+
+    &:before {
+      background-color: #10a0de;
+    }
+  }
+
+  &--offline {
+    color: #999;
+
+    &:before {
+      background-color: #999;
+    }
+  }
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+
+    transform: translateY(-50%);
+
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+  }
+}
+
+.node-panel {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+.worker-nodes-maps {
+  position: relative;
+  width: 100%;
+  padding-bottom: 50%;
+  overflow: hidden;
+
+  .leaflet-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    //background: linear-gradient(#572da8, #020101);
+    background-color: transparent;
+    min-height: 260px;
+  }
+
+  svg {
+    > g:first-child > path {
+      //fill: url(#mapsPattern);
+      fill: rgb(80, 80, 80);
+      fill-opacity: 1;
+      stroke-width: 0;
+    }
+  }
+
+  .leaflet-control-attribution {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .live-nodes-heading {
+    max-width: 270px;
+    margin: 0 auto;
+  }
+  .worker-nodes-maps {
+    padding-bottom: 70%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .live-nodes {
+    padding-top: 0;
+    // padding-bottom: 80px;
+
+    .text-1 {
+      margin-bottom: 36px;
+    }
+  }
+}

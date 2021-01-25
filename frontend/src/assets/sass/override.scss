@@ -1,0 +1,65 @@
+$body-bg:#000;
+$body-color: #dcdcdc;
+$font-size-base: 0.8125rem;
+$font-weight-base: 400;
+$line-height-base: 1.57143;
+$input-bg: #333;
+$input-border-color: $input-bg;
+$input-focus-border-color: $input-border-color;
+$input-color: white;
+$input-placeholder-color: #6D6D6D;
+$input-font-size: 18px;
+$input-focus-box-shadow: none;
+$input-line-height: 1.723;
+$custom-file-button-bg: #1D58EC;
+$custom-file-button-color: white;
+$custom-file-height: 45px;
+$custom-file-line-height: 30px;
+$custom-file-height-inner: auto;
+$btn-line-height: 2.4;
+$btn-font-size: 18px;
+$primary: #1D58EC;
+$light:#303030;
+$secondary: rgba(16,16,16, .7);
+$warning: #EE9601;
+$font-family-base: "GTPressuraMono";
+$nav-pills-link-active-bg: transparent;
+// $font-weight-base: 300;
+$modal-content-bg: #181818;
+$close-color: white;
+$modal-header-border-color: rgba(29, 88, 236, 0.2);
+$pagination-color: #BDBDBD;
+$pagination-bg: transparent;
+$pagination-border-color: #8D8D8D;
+$pagination-hover-color: white;
+$pagination-hover-bg: $pagination-bg;
+$pagination-hover-border-color: white;
+$pagination-active-color: white;
+$pagination-active-bg: $pagination-bg;
+$pagination-active-border-color:$pagination-hover-border-color;
+$nav-link-padding-y: 0.75rem;
+$modal-backdrop-opacity: 0.8;
+$link-decoration: underline;
+$link-color: #dcdcdc;
+$link-hover-color: white;
+$border-color: rgba(255, 255, 255, 0.15);
+$dark: rgba(16, 16, 16, 0.85);
+$table-border-color: rgba(255, 255, 255, 0.15);
+$table-border-width: 0;
+$table-bg: transparent;
+$badge-padding-y: 0.5rem;
+$badge-padding-x: 0.5rem;
+$badge-font-weight: 400;
+$navbar-padding-x: 0;
+$navbar-dark-brand-hover-color: #828282;
+$btn-link-disabled-color: #828282;
+$btn-focus-box-shadow: none;
+$btn-focus-width: 0;
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1400px
+) !default;
+// $enable-gradients: true;

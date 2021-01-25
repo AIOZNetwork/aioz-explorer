@@ -1,0 +1,422 @@
+$icomoon-font-family: "aioz" !default;
+$icomoon-font-path: "./../fonts/aioz" !default;
+
+$ico-play: "\e900";
+$ico-transfer: "\e901";
+$ico-select-arrow: "\e902";
+$ico-selected: "\e903";
+$ico-transactions: "\e904";
+$ico-trophy: "\e905";
+$ico-user: "\e906";
+$ico-video: "\e907";
+$ico-ads: "\e908";
+$ico-arrow: "\e909";
+$ico-arrow-down: "\e90a";
+$ico-arrow-up: "\e90b";
+$ico-audio: "\e90c";
+$ico-block: "\e90d";
+$ico-bullet: "\e90e";
+$ico-burger: "\e90f";
+$ico-cancel: "\e910";
+$ico-clapperboard: "\e911";
+$ico-computer: "\e912";
+$ico-currency: "\e913";
+$ico-currency-2: "\e914";
+$ico-film: "\e915";
+$ico-globe: "\e916";
+$ico-loading-bar: "\e917";
+$ico-messenger: "\e918";
+$ico-trash: "\e919";
+$ico-pagination: "\e91c";
+$ico-search: "\e91d";
+$ico-tag-icon: "\e91e";
+$ico-gear: "\e91f";
+$ico-server-5: "\e920";
+$ico-analytics: "\e921";
+$ico-cloud-upload: "\e922";
+$ico-film-roll: "\e923";
+$ico-truck: "\e924";
+$ico-angle-up-solid: "\e925";
+$ico-angle-down-solid: "\e926";
+$ico-home-solid: "\e927";
+$ico-long-arrow-alt-up-solid: "\e928";
+$ico-camera: "\e929";
+$ico-clock: "\e92a";
+$ico-clock-fatter: "\e92b";
+$ico-arrow-right: "\e92c";
+$ico-error: "\e92d";
+$ico-monitor: "\e92e";
+$ico-ok: "\e92f";
+$ico-arrow-left: "\e930";
+$ico-arrow-top: "\e931";
+$ico-arrow-bottom: "\e932";
+$ico-transcode: "\e933";
+$ico-store2: "\e934";
+$ico-store: "\e935";
+$ico-eye: "\e936";
+$ico-desktop: "\e937";
+$ico-deliver: "\e938";
+$ico-plus: "\e939";
+
+
+@font-face {
+  font-family: "#{$icomoon-font-family}";
+  src: url("#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?81396m") format("truetype"),
+  url("#{$icomoon-font-path}/#{$icomoon-font-family}.woff?81396m") format("woff"),
+  url("#{$icomoon-font-path}/#{$icomoon-font-family}.svg?81396m##{$icomoon-font-family}") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+%aioz-icon,
+[class^="ico-"],
+[class*=" ico-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "#{$icomoon-font-family}" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ico-play {
+  &:before {
+    content: $ico-play;
+  }
+}
+
+.ico-transfer {
+  &:before {
+    content: $ico-transfer;
+  }
+}
+
+.ico-select-arrow {
+  &:before {
+    content: $ico-select-arrow;
+  }
+}
+
+.ico-selected {
+  &:before {
+    content: $ico-selected;
+  }
+}
+
+.ico-transactions {
+  &:before {
+    content: $ico-transactions;
+  }
+}
+
+.ico-trophy {
+  &:before {
+    content: $ico-trophy;
+  }
+}
+
+.ico-user {
+  &:before {
+    content: $ico-user;
+  }
+}
+
+.ico-video {
+  &:before {
+    content: $ico-video;
+  }
+}
+
+.ico-ads {
+  &:before {
+    content: $ico-ads;
+  }
+}
+
+.ico-arrow {
+  &:before {
+    content: $ico-arrow;
+  }
+}
+
+.ico-arrow-down {
+  &:before {
+    content: $ico-arrow-down;
+  }
+}
+
+.ico-arrow-up {
+  &:before {
+    content: $ico-arrow-up;
+  }
+}
+
+.ico-audio {
+  &:before {
+    content: $ico-audio;
+  }
+}
+
+.ico-block {
+  &:before {
+    content: $ico-block;
+  }
+}
+
+.ico-bullet {
+  &:before {
+    content: $ico-bullet;
+  }
+}
+
+.ico-burger {
+  &:before {
+    content: $ico-burger;
+  }
+}
+
+.ico-cancel {
+  &:before {
+    content: $ico-cancel;
+  }
+}
+
+.ico-clapperboard {
+  &:before {
+    content: $ico-clapperboard;
+  }
+}
+
+.ico-computer {
+  &:before {
+    content: $ico-computer;
+  }
+}
+
+.ico-currency {
+  &:before {
+    content: $ico-currency;
+  }
+}
+
+.ico-currency-2 {
+  &:before {
+    content: $ico-currency-2;
+  }
+}
+
+.ico-film {
+  &:before {
+    content: $ico-film;
+  }
+}
+
+.ico-globe {
+  &:before {
+    content: $ico-globe;
+  }
+}
+
+.ico-loading-bar {
+  &:before {
+    content: $ico-loading-bar;
+  }
+}
+
+.ico-messenger {
+  &:before {
+    content: $ico-messenger;
+  }
+}
+
+.ico-pagination {
+  &:before {
+    content: $ico-pagination;
+  }
+}
+
+.ico-search {
+  &:before {
+    content: $ico-search;
+  }
+}
+
+.ico-tag-icon {
+  &:before {
+    content: $ico-tag-icon;
+  }
+}
+
+.ico-gear {
+  &:before {
+    content: $ico-gear;
+  }
+}
+
+.ico-server-5 {
+  &:before {
+    content: $ico-server-5;
+  }
+}
+
+.ico-analytics {
+  &:before {
+    content: $ico-analytics;
+  }
+}
+
+.ico-cloud-upload {
+  &:before {
+    content: $ico-cloud-upload;
+  }
+}
+
+.ico-film-roll {
+  &:before {
+    content: $ico-film-roll;
+  }
+}
+
+.ico-truck {
+  &:before {
+    content: $ico-truck;
+  }
+}
+
+.ico-angle-up-solid {
+  &:before {
+    content: $ico-angle-up-solid;
+  }
+}
+
+.ico-angle-down-solid {
+  &:before {
+    content: $ico-angle-down-solid;
+  }
+}
+
+.ico-home-solid {
+  &:before {
+    content: $ico-home-solid;
+  }
+}
+
+.ico-long-arrow-alt-up-solid {
+  &:before {
+    content: $ico-long-arrow-alt-up-solid;
+  }
+}
+
+.ico-camera {
+  &:before {
+    content: $ico-camera;
+  }
+}
+
+.ico-clock {
+  &:before {
+    content: $ico-clock;
+  }
+}
+
+.ico-clock-fatter {
+  &:before {
+    content: $ico-clock-fatter;
+  }
+}
+
+.ico-arrow-right {
+  &:before {
+    content: $ico-arrow-right;
+  }
+}
+
+.ico-error {
+  &:before {
+    content: $ico-error;
+  }
+}
+
+.ico-monitor {
+  &:before {
+    content: $ico-monitor;
+  }
+}
+
+.ico-ok {
+  &:before {
+    content: $ico-ok;
+  }
+}
+
+.ico-arrow-left {
+  &:before {
+    content: $ico-arrow-left;
+  }
+}
+
+.ico-arrow-top {
+  &:before {
+    content: $ico-arrow-top;
+  }
+}
+
+.ico-arrow-bottom {
+  &:before {
+    content: $ico-arrow-bottom;
+  }
+}
+
+.ico-transcode {
+  &:before {
+    content: $ico-transcode;
+  }
+}
+
+.ico-store2 {
+  &:before {
+    content: $ico-store2;
+  }
+}
+
+.ico-store {
+  &:before {
+    content: $ico-store;
+  }
+}
+
+.ico-eye {
+  &:before {
+    content: $ico-eye;
+  }
+}
+
+.ico-desktop {
+  &:before {
+    content: $ico-desktop;
+  }
+}
+
+.ico-deliver {
+  &:before {
+    content: $ico-deliver;
+  }
+}
+
+.ico-plus {
+  &:before {
+    content: $ico-plus;
+  }
+}
+
+.ico-trash {
+  &:before {
+    content: $ico-trash;
+  }
+}

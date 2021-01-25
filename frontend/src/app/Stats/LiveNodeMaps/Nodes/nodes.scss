@@ -1,0 +1,27 @@
+.validator {
+  .node {
+
+  }
+
+  .halo {
+
+  }
+}
+
+
+@keyframes blink {
+  0% {
+    stroke: #fb6a07;
+    fill: #fb6a07;
+  }
+
+  50% {
+    stroke: #FBF401;
+    fill: #FBF401;
+  }
+
+  100% {
+    stroke: #fb6a07;
+    fill: #fb6a07;
+  }
+}

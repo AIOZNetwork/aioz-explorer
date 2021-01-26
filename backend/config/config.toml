@@ -1,0 +1,32 @@
+# This is a TOML config file.
+# For more information, see https://github.com/toml-lang/toml
+
+##### flag to enable GoB
+[gob]
+enable = true
+
+##### database config options #####
+[database]
+user = "DB_USERNAME"
+passwd = "DB_PASSWORD"
+host = "DB_HOST"
+port = "DB_PORT"
+dbname = "DB_NAME"
+schema = "DB_SCHEMA"
+sslmode = "DB_SSL"
+sslrootcert = "PATH_TO_FILE"
+sslkey = "PATH_TO_FILE"
+sslcert = "PATH_TO_FILE"
+
+[coins]
+denom = "TOKEN_DENOM"
+
+[stake]
+denom = "TOKEN_STAKE_DENOM"
+
+[ws]
+url = "SERVER_WS"
+
+[lcdserver]
+host = "LCD_HOST"
+port = "LCD_PORT"
